@@ -66,7 +66,7 @@ func ShowTrainingInfo(action int, trainingType string, duration, weight, height 
 		return "неизвестный тип тренировки"
 	}
 }
-
+//
 // Константы для расчета калорий, расходуемых при беге.
 const (
     runningCaloriesMeanSpeedMultiplier = 18   // множитель средней скорости.
